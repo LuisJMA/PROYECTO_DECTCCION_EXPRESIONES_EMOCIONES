@@ -91,26 +91,26 @@ IA/
 ├── README.md # Documentación
 └── .gitignore # Archivos ignorados
 
--Crear entorno virtual
+## Crear entorno virtual
 python -m venv venv
 # Activar en Windows:
 venv\Scripts\activate
 
--Instalar dependencias
+## Instalar dependencias
 pip install -r requirements.txt
 
--Configurar cámara
+## Configurar cámara
 
 Si usas IP Webcam (celular):
 Instala la app IP Webcam en tu celular
 Abre la app y presiona "Start Server"
 En el código, cambia la URL por la IP que aparece en tu celular
 
--Ejecutar la aplicación
+## Ejecutar la aplicación
 python main.py
 
 
--Pantalla de Registro
+## Pantalla de Registro
 
 Completa nombre, apellido y email
 
@@ -120,7 +120,7 @@ Verifica la calidad del registro
 
 Presiona "REGISTRAR PERSONA"
 
--Pantalla de Detección
+## Pantalla de Detección
 
 Presiona "INICIAR"
 
@@ -132,7 +132,7 @@ Rectángulo rojo si no está registrada
 
 Emoción detectada y nivel de confianza
 
--Pantalla de Reportes
+## Pantalla de Reportes
 
 Gráficos: Distribución de emociones por persona
 
@@ -142,12 +142,12 @@ Estadísticas: Totales, emociones más comunes
 
 Exportar: Guardar datos en CSV
 
--Ajustar tolerancia
+## Ajustar tolerancia
 En database.py:
 tolerancia=0.6  # Menor = más estricto, Mayor = más permisivo(en el codigo esta a 0.8)
 
 
--Solución de Problemas
+## Solución de Problemas
 
 *No se detecta la cámara
 Verifica que IP Webcam esté corriendo
